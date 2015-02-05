@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spartans"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal"
+    tools:context="cmpe277.lab0.helloworldapp.DisplayMessageActivity" >
+
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display_message"/>
+
+</LinearLayout>
